@@ -18,6 +18,15 @@ function removeColor() {
     $(this).removeClass('secondColor');
 }
 
-
+let webLI = document.querySelector("#web");
+webLI.addEventListener("click", function(e) {
+    let audio = document.querySelector("#boom");
+    if(!audio) {
+        return;
+    } else {
+        audio.play();
+        $(this).addClass('hover');
+    }
+})
 
 
