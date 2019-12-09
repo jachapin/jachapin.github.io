@@ -12,7 +12,11 @@ h1 {
 	color: blue;
 }
 
-
+#jeffpicture {
+	height: 140px;
+	width: 120px;
+	align-content: left;
+}
 
 .hover {
 	transform: scale(1.5);
